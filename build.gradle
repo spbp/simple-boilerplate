@@ -27,7 +27,6 @@ version = '0.2.1'
 
 // Maven group
 group = 'com.github.spbp.welcome'
-version = '0.2.1'
 
 // Set compatibility
 sourceCompatibility = 1.7
@@ -56,7 +55,8 @@ configurations {
 // You can also edit which version of the SpongeAPI is used by the plugin
 dependencies {
 	provided 'org.spongepowered:spongeapi:1.1-SNAPSHOT' // Assume availability of the Sponge API
-	// Use 'compile' instead of 'provided' for your own dependencies!
+	// Use 'compile' instead of 'provided' for your own dependencies. Example:
+	// compile 'org.apache.commons:commons-lang3:3.3.2'
 }
 
 // Configure license headers
