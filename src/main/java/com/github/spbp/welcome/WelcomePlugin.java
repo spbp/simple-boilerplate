@@ -34,7 +34,7 @@ import com.google.inject.Inject;
 
 // Modify these values!
 @Plugin(id = "spbp.welcome", name = "NewbieWelcome", version = "0.2.1")
-public class NotifierPlugin {
+public class WelcomePlugin {
 
     @Inject
     Game game;
