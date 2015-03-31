@@ -26,7 +26,7 @@ ext.inceptionYear = '2015'
 version = '0.2.1'
 
 // Maven group
-group = 'com.github.spbp.welcome'
+group = 'com.github.spbp'
 
 // Set compatibility
 sourceCompatibility = 1.7
