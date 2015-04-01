@@ -27,6 +27,8 @@ version = '0.2.1'
 
 // Maven group
 group = 'com.github.spbp'
+// Maven artifactId
+archivesBaseName = 'newbiewelcome'
 
 // Set compatibility
 sourceCompatibility = 1.7
@@ -127,7 +129,7 @@ uploadArchives {
 			}
 			pom {
 				groupId = project.group
-				artifactId = project.name
+				artifactId = project.archivesBaseName
 				version = project.version
 			}
 		}
